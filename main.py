@@ -13,7 +13,7 @@ def create_greeting(name, system, language):
             message = f"Hello {name}, your Python runs on a {system}."
             return message    
         case _:
-            message = "Not matched"
+            message = f"{language} not supported"
             return message
     
     
