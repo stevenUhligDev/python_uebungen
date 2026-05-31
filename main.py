@@ -1,2 +1,3 @@
 name = "Steven"
-print(f"Hallo {name}, dein Python auf Linux läuft.")
+system = "Raspberry Pi 5"
+print(f"Hallo {name}, dein Python auf dem {system}.")
